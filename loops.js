@@ -13,11 +13,8 @@ function whileLoop(n){
     console.log(--n)
   } return 'done'
 }
-function incrementVariable() {
-  var i = i + 1;
-  return i;
-}
 function doWhileLoop(num){
+var i =0;
 do{
   console.log("I run once regardless.");
 } while (i++ < num);
